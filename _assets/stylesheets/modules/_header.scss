@@ -89,6 +89,8 @@
 @include breakpoint(small) {
   .navside-tags {
     margin: 5px 5px;
+    overflow: auto;
+    white-space: nowrap;
     border-bottom: 1px solid $base-border-color;
     li {
       display: inline-block;
