@@ -107,10 +107,8 @@
     @include responsive-grid-generator();
   }
   .grid-lefted {
-    float: left;
     padding-left: 0px;
     max-width: $max-width + 0px;
-    margin-right: auto;
-    margin-left: auto;
+
   }
 }
