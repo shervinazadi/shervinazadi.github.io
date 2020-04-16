@@ -13,7 +13,7 @@ discus_identifier: # chalk-1 # Add your Disqus identifier
 ga_analytics: UA-163806385-1 # Add your GA Tracking Id
 local_fonts: false # Change to true if you wish to use local fonts
 rss_enabled: false # Change to false if not
-scrollappear_enabled: true # Change to false to disable
+scrollappear_enabled: false # Change to false to disable
 tag_nav_enabled: true # Change to true if you wish to show an additional 'tag-list' navigation below the header
 theme_toggle: true # Change to true if you wish to show an icon in the navigation for dynamic theme toggling
 social:

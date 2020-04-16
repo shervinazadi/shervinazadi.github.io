@@ -99,6 +99,9 @@
     }
     
   }
+  .navside-tags::-webkit-scrollbar {
+    display: none;
+  }
   .header-nav {
     padding: 25px 25px 0 ;
   }

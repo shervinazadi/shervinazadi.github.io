@@ -23,6 +23,14 @@ body {
   line-height: $base-line-height;
   color: $base-font-color;
   background: $body-background;
+  /*
+  overflow-y: hidden; // Hide vertical scrollbar
+  overflow-x: hidden; // Hide horizontal scrollbar
+  */
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 // Typography
@@ -174,3 +182,4 @@ img {
     //flex-wrap: wrap;
   }
 }
+
