@@ -7,11 +7,16 @@
   padding-top: 35px;
   margin-bottom: 85px;
   border-top: 1px solid $base-border-color;
+  //opacity: 1;
   p {
     font-size: 15px;
-    color: $gray-light;
+    color: $article-footer-color; //$gray-light;
   }
   a {
     text-decoration: none;
+    color: $article-footer-color;
+    &:hover {
+      color: $article-footer-link-color;
+    }
   }
 }

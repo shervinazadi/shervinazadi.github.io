@@ -1,0 +1,4 @@
+---
+slug: self
+name: Self
+---
