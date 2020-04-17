@@ -1,0 +1,4 @@
+---
+slug: paper
+name: Paper
+---

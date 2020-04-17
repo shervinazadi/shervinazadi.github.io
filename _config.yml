@@ -3,7 +3,7 @@
 blog_theme: dark # light or dark
 name: Shervin Azadi
 paginate: 10
-url: shervinazadi.github.io
+url: shervinazadi.com
 
 
 # Optional settings
@@ -23,7 +23,7 @@ social:
   github: shervinazadi # Add your GitHub handle
   linkedin: /shervin-azadi-074a2a8a # Add your LinkedIn handle
   twitter:  # Add your Twitter handle
-  email: shervinazadi93@gmail.com # Add your Email address
+  email: s.azadi-1@tudelft.nl # Add your Email address
   bitcoin: # Add your Bitcoin link or address
   ethereum: # Add your Ethereum link or address
   gitlab: # Add your GitLab handle
