@@ -10,7 +10,7 @@
 .article-list {
   display: block;
   padding: 0;
-  margin: 25px 0 0 ;
+  margin: -30px 0 0;
   list-style: none;
   li {
     position: relative;
@@ -29,7 +29,7 @@
         padding-top: 6px;
         font-size: 11px;
         font-weight: 600;
-        letter-spacing: .1em;
+        letter-spacing: 0.1em;
         color: $gray;
         text-decoration: none;
         text-transform: uppercase;
@@ -156,6 +156,25 @@
   }
 }
 
+.tag-page-header {
+  display: block;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid $base-border-color;
+  p {
+    display: block;
+    margin: 12px 0 10px;
+    font-size: $base-font-size;
+    color: $article-header-description-color;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+.tag-page-head {
+  display: block;
+  padding: 55px 0 0;
+}
 .article-content {
   display: block;
   p,
@@ -188,6 +207,37 @@
   }
 }
 
+.tag-page-content {
+  display: block;
+  p,
+  ul,
+  ol,
+  img,
+  blockquote {
+    display: block;
+    margin-bottom: 30px;
+
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  h2,
+  h3,
+  h4 {
+    display: block;
+    margin-bottom: 10px;
+    font-family: $sans-serif;
+    color: $article-post-titles-color;
+  }
+  blockquote p {
+    margin-bottom: 0;
+  }
+  img.emoji {
+    display: inline-block;
+    margin-top: -4px;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+}
 .article-comments {
   display: block;
   padding-top: 20px;

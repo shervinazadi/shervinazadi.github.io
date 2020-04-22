@@ -1,4 +1,5 @@
 ---
 slug: gss
-name: GSS
+name: GSS-Lab
+title: GSS-Lab
 ---

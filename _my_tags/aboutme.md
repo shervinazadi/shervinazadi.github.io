@@ -1,9 +1,8 @@
 ---
-layout: post
-title: "About Me"
-description: "this is how world is unfolding before my eyes"
-thumb_image: "documentation/sample-image.jpg"
-tags: [aboutme, houdini, python, gss, teaching, research]
+slug: aboutme
+name: About Me
+title: About Me
+description: this is how world is unfolding before my eyes
 ---
 
 Shervin Azadi is a researcher / developer based in Rotterdam, Netherlands. He holds a BSc in Architectural Engineering from the University of Tehran, & MSc in Architecture (cumlaude) from TU Delft. He is currently a researcher at Design Informatics Chair in TU Delft.
