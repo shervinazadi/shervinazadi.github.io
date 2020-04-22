@@ -63,7 +63,7 @@
   display: inline-block;
   width: 100%;
   padding: 0 $gutter;
-  margin: 0;
+  margin: 20px 0;
   font-size: $base-font-size;
   text-align: left;
   vertical-align: top;
@@ -105,10 +105,10 @@
 @include breakpoint(small) {
   .grid-cell {
     @include responsive-grid-generator();
+    margin: 0 0;
   }
   .grid-lefted {
     padding-left: 0px;
     max-width: $max-width + 0px;
-
   }
 }

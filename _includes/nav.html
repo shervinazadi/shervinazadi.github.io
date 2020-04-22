@@ -1,24 +1,26 @@
-<nav role="navigation" aria-label="Main navigation" >
-    <!-- <ul class="navigation-list"> -->
-      {% if site.tag_nav_enabled %}
-        <ul class="navside-tags {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-          {% assign tags = site.tags | sort %}
-          {% for tag in tags %}
-            {% if forloop.index > 20 %}
-              <li>...</li>
-              <li><a href="/tags">Show all</a></li>
-              {% break %}
-            {% endif %}
-              
-            {% if page.slug == tag[0] %}
-              <li><a href="{{ 'tag/' | relative_url }}{{ tag[0] }}">[{{ tag[0] }}]</a></li> <!-- {{ tag[0] | capitalize }} -->
-              {% else %}
-              <li><a href="{{ 'tag/' | relative_url }}{{ tag[0] }}">{{ tag[0] }}</a></li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      {% endif %}
-      <!--
+<nav role="navigation" aria-label="Main navigation">
+  <!-- <ul class="navigation-list"> -->
+  {% if site.tag_nav_enabled %}
+  <ul
+    class="navside-tags {% if site.scrollappear_enabled %}scrollappear{% endif %}"
+  >
+    {% assign tags = site.tags | sort %} {% for tag in tags %} {% if
+    forloop.index > 20 %}
+    <li>...</li>
+    <li><a href="/tags">Show all</a></li>
+    {% break %} {% endif %} {% if page.slug == tag[0] %}
+    <li>
+      <a href="{{ 'tag/' | relative_url }}{{ tag[0] }}">[{{ tag[0] }}]</a>
+    </li>
+    <!-- {{ tag[0] | capitalize }} -->
+    {% else %}
+    <li>
+      <a href="{{ 'tag/' | relative_url }}{{ tag[0] }}">{{ tag[0] }}</a>
+    </li>
+    {% endif %} {% endfor %}
+  </ul>
+  {% endif %}
+  <!--
       {%- assign pages_list = site.html_pages | sort:"nav_order" -%}
       {%- for node in pages_list -%}
         {%- unless node.nav_exclude -%}
@@ -58,5 +60,4 @@
           
     </ul>
       -->
-  </nav>
-  
+</nav>

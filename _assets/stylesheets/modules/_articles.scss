@@ -7,10 +7,15 @@
   margin: 35px 0;
 }
 
+.tag-head {
+  display: block;
+  margin: 35px 0 0;
+}
+
 .article-list {
   display: block;
   padding: 0;
-  margin: -30px 0 0;
+  margin: 0px 0 0;
   list-style: none;
   li {
     position: relative;
@@ -158,8 +163,8 @@
 
 .tag-page-header {
   display: block;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  //padding-bottom: 30px;
+  //margin-bottom: 30px;
   border-bottom: 1px solid $base-border-color;
   p {
     display: block;
@@ -173,7 +178,7 @@
 }
 .tag-page-head {
   display: block;
-  padding: 55px 0 0;
+  padding: 30px 0 0;
 }
 .article-content {
   display: block;
@@ -277,5 +282,8 @@
   .article-list-tags {
     display: block;
     margin-top: -7px;
+  }
+  .tag-page-head {
+    padding: 10px 0 0;
   }
 }
