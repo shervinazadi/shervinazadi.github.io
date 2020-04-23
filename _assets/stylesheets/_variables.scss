@@ -27,7 +27,7 @@ $brand-warning: #f1c90b;
 // Grid
 
 $columns: 12;
-$max-width: 720px;
+$max-width: 750px;
 $gutter: 20px;
 $one-column: 100% / $columns;
 $negative-gutter: 0 - $gutter;
@@ -44,4 +44,4 @@ $base-border-radius: 4px;
 // Effects
 // =============================================================================
 
-$base-transition-speed: .2s;
+$base-transition-speed: 0.2s;

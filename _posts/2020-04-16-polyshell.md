@@ -1,9 +1,15 @@
 ---
 layout: post
 title: "PolyShell"
-description: "Polyhedral Shell"
+description: "Construction Design of Adobe Shell Structures by Topological Polyhedralization"
 thumb_image: "documentation/sample-image.jpg"
-tags: [paper , python, research, computation, arch]
+tags: [publication, python, research, computation, spatial]
 ---
 
-The idea of computational architecture more often implies a high-tech construction. However, computational processes can enable the designer to orchestrate the construction phase in order to decrease the dependency of it to infrastructures. This approach can have an added-value in the construction of shelters in remote and undeveloped areas. 
+### Authors
+
+Karim Daw, Shervin Azadi, Pirouz Nourian, Hans Hoogenboom
+
+### Abstract
+
+Building optimal free-form compression-only adobe shells requires sophisticated moulds, scaffolding, critical supervision and an expert labour force as pointed out in [1]; this is because the optimality of a computationally designed shell depends on achieving the right geometric shape in construction. The objective of our research is to find ways to simplify the construction of compression-only adobe shell structures to be built as shelters. This paper presents a computational work-flow for approximating the shape of an adobe shell structure, with space-filling polyhedral bricks, through a topological polyhedralization process. The work flow is devised to simplify the construction of an adobe structure with the prospect of participatory construction of adobe shelters. The process takes in a dynamically-relaxed optimized shape for an adobe thin shell structure as a manifold surface, approximates it with space-filling polyhedrons as a volumetric representation; forms a finite element mesh as the lattice dual to the polyhedrons; and analyzes the structures to validate their stability. We argue that the proposed approach simplifies the construction process for untrained labour forces and thus makes it possible to quickly build adobe shell structures as temporary shelters. A possible application of this method could be the participatory construction of adobe shelters for displaced communities with in-situ soil as an alternative to the longterm stay in tents.
