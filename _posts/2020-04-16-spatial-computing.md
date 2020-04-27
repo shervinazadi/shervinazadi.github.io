@@ -6,4 +6,9 @@ thumb_image: "documentation/sample-image.jpg"
 tags: [houdini, python, teaching, computation, spatial]
 ---
 
-I have also tutored Spatial Computing studio for BSc students.
+Bachelor Minor at TU Delft
+Generative design systems for housing complex
+
+Course information on TU Delft Study Guide: [BK7083](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48799)
+
+Repository of the course: [git](https://gitlab.com/Pirouz-Nourian/spatial_computing)
