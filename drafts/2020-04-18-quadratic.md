@@ -8,7 +8,7 @@ tags: [publication, python, research, computation, spatial]
 
 ### Authors
 
-Cemre Cubukcuoglu, Pirouz Nourian, M. Fatih Tasgetiren, I.Sevil Sariyildiz, Shervin Azadi
+Cemre Cubukcuoglu, [Pirouz Nourian](https://sites.google.com/site/pirouznourian/about-me?authuser=0), M. Fatih Tasgetiren, I.Sevil Sariyildiz, Shervin Azadi
 
 ### Abstract
 

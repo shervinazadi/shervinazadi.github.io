@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Spatial Computing"
-description: "Spatial Computing for Public Buildings"
+title: "Spatial Computing Minor"
+description: "Volumetric Generative Design Systems for Residential Complex"
 thumb_image: "documentation/sample-image.jpg"
 tags: [houdini, python, teaching, computation, spatial]
 ---
+
+[Spatial Computing](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48799) is a minor for bachelor students at [TU Delft](https://www.tudelft.nl/en/). I have helped to create and teach this course in collaboration with [Dr. Ir. Pirouz Nourian](https://sites.google.com/site/pirouznourian/about-me?authuser=0) and Ir. Hans Hoogenboom.
 
 Bachelor Minor at TU Delft
 Generative design systems for housing complex

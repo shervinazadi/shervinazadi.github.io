@@ -8,7 +8,7 @@ tags: [publication, python, research, computation, spatial]
 
 ### Authors
 
-Karim Daw, Shervin Azadi, Pirouz Nourian, Hans Hoogenboom
+Karim Daw, Shervin Azadi, [Pirouz Nourian](https://sites.google.com/site/pirouznourian/about-me?authuser=0), Hans Hoogenboom
 
 ### Abstract
 
