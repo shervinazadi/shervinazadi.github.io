@@ -3,7 +3,7 @@ layout: post
 title: "PolyShell"
 description: "Construction Design of Adobe Shell Structures by Topological Polyhedralization"
 thumb_image: "documentation/sample-image.jpg"
-tags: [publication, python, research, computation, spatial]
+tags: [publication, python, research, generative, computation, spatial]
 ---
 
 {% include image.html path="polyshell/ps_01_S.png"
