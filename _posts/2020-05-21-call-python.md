@@ -33,8 +33,12 @@ tags: [notebooks, python, computation, interface]
 
 ### [Interactive Visualization of Urbanization of World](https://github.com/shervinazadi/Portfolio_Data_Visualization/blob/master/VIS/PY_Urbanization)
 
-{% include image.html path="polyshell/dr.gif"
-                      path-detail="polyshell/dr.gif"
+{% include image.html path="notebook_vis/Urbanization_S.png"
+                      path-detail="notebook_vis/Urbanization.png"
                       alt="Sample image" %}
 
 ### [Interactive Visualization of Mesh Rasterization Algorithm](https://github.com/shervinazadi/Notebook_Visualization/tree/master/VIS/PY_Rasterization)
+
+{% include image.html path="notebook_vis/Rasterization_S.png"
+                      path-detail="notebook_vis/Rasterization.png"
+                      alt="Sample image" %}
