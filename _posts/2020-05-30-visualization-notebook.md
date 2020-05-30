@@ -1,44 +1,15 @@
 ---
 layout: post
-title: "Visualization Notebook: Data & Process"
-description: "A set of data and process visualizations setups"
+title: "Houdini Asset: Call Python"
+description: "Running any python code with any environment from within Houdini"
 thumb_image: "documentation/sample-image.jpg"
-tags: [notebooks, python, computation, interface]
+tags: [gss, python, houdini, computation, interface]
 ---
 
-[This Notebook](https://github.com/shervinazadi/Notebook_Visualization) is an educational collection of data and process visualization setups that can work both as an educational example and as a base template for further developments in visualizations.
+This houdini asset allows the user to choose a python file and choose a specific python environment and run the python script with the selected environment. This allows for separation of environments through a workflow and also solves the problem of importing libraries in houdini completely. This asset is compatible with conda environments as well.
 
-## Contents (Based on Method)
+This module uses the `sqlite3` standard library to replicate the Houdini's geo database and passes the address to the subprocess. The subprocess will read the database, execute the computational process and saves the data into the database. You can decide to keep or delete the database for trouble shooting purposes.
 
-- Processes & Algorithms
-- Interactive
-- Locative
-- 3-Dimensional
-- XR (VR, AR, MR)
+## GSS-Lab
 
-## Contents (Based on Platform)
-
-- JavaScript
-  - D3
-  - Three.js
-  - MapBox
-- Python
-  - MatPlotLib
-  - Plotly
-  - PyVista
-- Houdini
-- Unity
-
-## Examples
-
-### [Interactive Visualization of Urbanization of World](https://github.com/shervinazadi/Portfolio_Data_Visualization/blob/master/VIS/PY_Urbanization)
-
-{% include image.html path="notebook_vis/Urbanization_S.png"
-                      path-detail="notebook_vis/Urbanization.png"
-                      alt="Sample image" %}
-
-### [Interactive Visualization of Mesh Rasterization Algorithm](https://github.com/shervinazadi/Notebook_Visualization/tree/master/VIS/PY_Rasterization)
-
-{% include image.html path="notebook_vis/Rasterization_S.png"
-                      path-detail="notebook_vis/Rasterization.png"
-                      alt="Sample image" %}
+This project is part of the setup for Generative Sciences & Systems Lab Setup. It is currently being developed by [Shervin Azadi](https://github.com/shervinazadi) and [Pirouz Nouria](https://github.com/Pirouz-Nourian) at GSS-Lab, Department of Architectural Engineering and Technology, at TU Delft.
