@@ -60,7 +60,7 @@ h6 {
 h1 {
   font-size: $base-font-size * 1.6;
   font-weight: 400;
-  letter-spacing: -.03em;
+  letter-spacing: -0.03em;
   color: $article-header-title-color;
 }
 
@@ -153,12 +153,15 @@ hr {
 }
 
 img {
+  // max-width: 100%;
+}
+
+.zooming {
   display: block;
   max-width: 100%;
   margin: 0;
   object-fit: contain;
 }
-
 .notfound-wrapper {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -183,4 +186,3 @@ img {
     //flex-wrap: wrap;
   }
 }
-

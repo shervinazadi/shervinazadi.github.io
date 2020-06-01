@@ -92,15 +92,19 @@
 }
 
 .article-list-side-image {
+  margin: 0px 20px 0px 0px;
   display: inline-block;
-  width: 400;
-  height: 400;
 }
 
 .article-list-side-info {
   display: inline-block;
 }
 
+.article-thumb-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
 .article-list-footer {
   display: block;
   span,
