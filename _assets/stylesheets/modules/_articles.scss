@@ -91,6 +91,16 @@
   }
 }
 
+.article-list-side-image {
+  display: inline-block;
+  width: 400;
+  height: 400;
+}
+
+.article-list-side-info {
+  display: inline-block;
+}
+
 .article-list-footer {
   display: block;
   span,
