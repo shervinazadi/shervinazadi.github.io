@@ -96,15 +96,16 @@
   display: inline-block;
 }
 
-.article-list-side-info {
-  display: inline-block;
-}
-
 .article-thumb-image {
   width: 120px;
   height: 120px;
   object-fit: cover;
+  vertical-align: super;
 }
+.article-list-side-info {
+  display: inline-block;
+}
+
 .article-list-footer {
   display: block;
   span,
@@ -135,7 +136,11 @@
   //display: inline-block;
   display: block;
   max-width: $max-width - 200px;
-  // vertical-align: top;
+  overflow: auto;
+  white-space: nowrap;
+}
+.article-list-tags::-webkit-scrollbar {
+  display: none;
 }
 
 .article-tag {
