@@ -179,7 +179,7 @@ img {
   //flex-wrap: wrap;
 }
 
-@include breakpoint(small) {
+@include breakpoint(medium) {
   .side-bar {
     position: relative;
     //display: flex;

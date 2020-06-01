@@ -134,10 +134,10 @@
 }
 
 .article-list-tags {
-  //display: inline-block;
+  // display: inline-block;
   display: block;
   max-width: $max-width - 200px;
-  overflow: auto;
+  overflow: scroll;
   white-space: nowrap;
 }
 .article-list-tags::-webkit-scrollbar {
@@ -294,7 +294,7 @@
 // Responsive
 // =============================================================================
 
-@include breakpoint(small) {
+@include breakpoint(medium) {
   .article-list-footer {
     display: block;
   }
@@ -307,5 +307,28 @@
   }
   .tag-page-head {
     padding: 10px 0 0;
+  }
+}
+
+@include breakpoint(small) {
+  .article-list-tags {
+    max-width: auto;
+    white-space: normal;
+  }
+  .article-list-item {
+    white-space: normal;
+  }
+  .article-list-side-image {
+    margin: 0px 10px 0px 10px;
+    display: block;
+  }
+
+  .article-thumb-image {
+    width: 100%;
+    height: auto;
+  }
+  .article-thumb-image:after {
+    display: block;
+    padding-bottom: 100%;
   }
 }

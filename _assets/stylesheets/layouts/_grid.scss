@@ -102,7 +102,7 @@
 // Responsive
 // =============================================================================
 
-@include breakpoint(small) {
+@include breakpoint(medium) {
   .grid-cell {
     @include responsive-grid-generator();
     margin: 0 0;
