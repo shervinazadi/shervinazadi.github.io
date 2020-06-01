@@ -11,14 +11,23 @@ layout: default
   <li
     class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}"
   >
-    <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-      <h5>{{ post.title }}</h5>
-    </a>
-    <p>
-      {% if post.description %} {{ post.description }} {% else %} {{
-      post.excerpt }} {% endif %}
-    </p>
-    {% include article/info-footer.html post=post %}
+    <div class="article-list-side-image">
+      <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+        {% include thumb_image.html path=post.thumb_image alt="Sample image" %}
+      </a>
+    </div>
+    <div class="article-list-side-info">
+      <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+        <h5>
+          {{ post.title }} {% include svg-icon.html icon="arrow-right" %}
+        </h5>
+      </a>
+      <p>
+        {% if post.description %} {{ post.description }} {% else %} {{
+        post.excerpt }} {% endif %}
+      </p>
+      {% include article/info-footer.html post=post %}
+    </div>
   </li>
   {% endfor %}
 </ul>
