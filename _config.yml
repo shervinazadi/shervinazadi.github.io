@@ -2,7 +2,7 @@
 
 blog_theme: dark # light or dark
 name: Shervin Azadi
-paginate: 10
+paginate: 12
 url: shervinazadi.com
 
 # Optional settings
