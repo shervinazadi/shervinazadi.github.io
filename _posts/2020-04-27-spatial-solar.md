@@ -2,7 +2,7 @@
 layout: post
 title: "Spatial Solar Energy Analyses"
 description: "Spatial Energy Yield Estimation of Solar Panels"
-thumb_image: "documentation/sample-image.jpg"
+thumb_image: "solar/Noordereiland_P_S.png"
 tags: [research, computation, spatial, python, houdini]
 ---
 
