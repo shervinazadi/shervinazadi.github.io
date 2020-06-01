@@ -2,7 +2,7 @@
 layout: post
 title: "Future Models"
 description: "Utilizing Agent-Based Models for Data-driven Design"
-thumb_image: "documentation/sample-image.jpg"
+thumb_image: "whyfactory/OnTheGo_Cover.png"
 tags: [houdini, python, teaching, computation, spatial]
 ---
 
