@@ -2,7 +2,7 @@
 layout: post
 title: "Spatial Computing Minor"
 description: "Volumetric Generative Design Systems for Residential Complex"
-thumb_image: "documentation/sample-image.jpg"
+thumb_image: "documentation/sample-image.png"
 tags: [houdini, teaching, generative, computation, spatial, python]
 ---
 

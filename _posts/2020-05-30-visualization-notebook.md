@@ -2,7 +2,7 @@
 layout: post
 title: "Visualization Notebook: Data & Process"
 description: "A set of data and process visualizations setups"
-thumb_image: "documentation/sample-image.jpg"
+thumb_image: "documentation/sample-image.png"
 tags: [notebooks, python, computation, interface]
 ---
 

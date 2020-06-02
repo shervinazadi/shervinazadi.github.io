@@ -2,7 +2,7 @@
 layout: post
 title: "Spatial Quadratic Assignment"
 description: "Quadratic assignment problem using spatial geodesic distance for renovating a hospital layout design"
-thumb_image: "documentation/sample-image.jpg"
+thumb_image: "documentation/sample-image.png"
 tags: [publication, python, research, computation, spatial]
 ---
 

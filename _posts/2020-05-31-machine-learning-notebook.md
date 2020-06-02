@@ -2,7 +2,7 @@
 layout: post
 title: "Data Analysis & Machine Learning Notebook"
 description: "A set of template data analyses setups"
-thumb_image: "documentation/sample-image.jpg"
+thumb_image: "documentation/sample-image.png"
 tags: [notebooks, python, computation, math]
 ---
 

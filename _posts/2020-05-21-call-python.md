@@ -2,7 +2,7 @@
 layout: post
 title: "Houdini Asset: Call Python"
 description: "Running any python code with any environment from within Houdini"
-thumb_image: "documentation/sample-image.jpg"
+thumb_image: "documentation/sample-image.png"
 tags: [gss, python, houdini, computation, interface]
 ---
 
