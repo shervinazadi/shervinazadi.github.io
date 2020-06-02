@@ -2,7 +2,7 @@
 layout: post
 title: "Emergentium"
 description: "Rule-based Urban Emergence"
-thumb_image: "documentation/sample-image.jpg"
+thumb_image: "emergentium/sil.png"
 tags:
   [
     research,
