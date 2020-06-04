@@ -51,6 +51,6 @@ tags: [notebooks, python, computation, interface]
 
 [Interactive Visualization of Mesh Rasterization Algorithm](https://github.com/shervinazadi/Notebook_Visualization/tree/master/VIS/PY_Rasterization)
 
-{% include image.html path="notebook_vis/Rasterization_S.png"
-                      path-detail="notebook_vis/Rasterization.png"
+{% include image.html path="notebook_vis/Rasterization_S.gif"
+                      path-detail="notebook_vis/Rasterization.gif"
                       alt="Sample image" %}

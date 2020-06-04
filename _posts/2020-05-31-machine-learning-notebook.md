@@ -3,7 +3,7 @@ layout: post
 title: "Data Analysis & Machine Learning Notebook"
 description: "A set of template data analyses setups"
 thumb_image: "documentation/sample-image.png"
-tags: [notebooks, python, computation, math]
+tags: [notebooks, python, computation, data, num]
 ---
 
 [This Notebook](https://github.com/shervinazadi/Notebook_MachineLearning) is an educational collection of data analsis and machine learning setups setups that can work both as an educational example and as a base template.
