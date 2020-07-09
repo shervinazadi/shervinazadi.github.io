@@ -10,7 +10,8 @@ Houdini is a great software not only for VFX artists but anyone who's work is in
 
 [This houdini asset](https://github.com/shervinazadi/GSS_Call_Python) allows the user to choose a python file and choose a specific python environment and execute the python script within the selected environment. This allows for separation of environments through a workflow and also solves the problem of importing libraries in houdini completely. This module utilises the `sqlite3` standard library to replicate the Houdini's geo-database and passes the address to the subprocess. The subprocess will read the database, execute the computational process and saves the data into the database. You can decide to keep or delete the database for trouble shooting purposes.
 
-You can download and find further information regarding features, known issues, and upcoming features in [GSS_Call_Python GitHub](https://github.com/shervinazadi/GSS_Call_Python).
+[GSS_Call_Python GitHub](https://github.com/shervinazadi/GSS_Call_Python)
+[Download Latest Version](https://github.com/shervinazadi/GSS_Call_Python)
 
 ## GSS-Lab
 
