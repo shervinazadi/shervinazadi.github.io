@@ -2,6 +2,7 @@
 slug: research
 name: Research
 title: Research
+parent: activities
 description:
 ---
 

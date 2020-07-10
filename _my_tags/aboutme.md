@@ -1,7 +1,8 @@
 ---
 slug: aboutme
-name: About Me
-title: About Me
+name: AboutMe
+title: AboutMe
+parent: root
 description:
 ---
 
@@ -9,4 +10,4 @@ Shervin Azadi is a researcher / developer based in Rotterdam, Netherlands. He ho
 
 Shervin’s speciality is Computational Design. He has developed algorithms and created tools for analyses of light, visibility and accessibility in architecture. Nevertheless, his current research investigates the potentials of a mathematical / computational formulation of the architectural design problem, which can ultimately lead to a Computational Generative Design process. More specifically, he looks into the possibility of Graph Grammars and Agent-Based Models as generative interfaces for design.
 
-<a href="{% asset 'docs/CV.pdf' @path %}" target="_blank">My CV</a>
+<a href="{% asset 'docs/CV.pdf' @path %}" target="_blank">My Latest CV</a>

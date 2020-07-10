@@ -3,7 +3,7 @@ layout: post
 title: "Visualization Notebook: Data & Process"
 description: "A set of data and process visualizations setups"
 thumb_image: "documentation/sample-image.png"
-tags: [notebooks, python, computation, interface]
+tags: [notebooks, python, interface]
 ---
 
 [This Notebook](https://github.com/shervinazadi/Notebook_Visualization) is an educational collection of data and process visualization setups that can work both as an educational example and as a base template for further developments in visualizations.

@@ -3,17 +3,7 @@ layout: post
 title: "Emergentium"
 description: "Rule-based Urban Emergence"
 thumb_image: "emergentium/sil.png"
-tags:
-  [
-    research,
-    computation,
-    spatial,
-    generative,
-    houdini,
-    gamification,
-    urban,
-    python,
-  ]
+tags: [research, spatial, generative, gamification, urban, python, development]
 ---
 
 Emergentium is a research project, co-founded by [Nour Abuzaid](https://indd.adobe.com/view/33e5a7fb-7ba8-49f1-9109-91e317d48728) and [Shervin Azadi](https://shervinazadi.com/) with the objective of building a dynamic and interactive design platform that integrates both the interface and the computational logic necessary to create bottom-up scenarios for urban design. It aims to create a workflow where different rulesets are developed by users and implemented using a simulation model, to investigate the emergent effect of their large-scale application.

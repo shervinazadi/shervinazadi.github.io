@@ -4,6 +4,61 @@
   <ul
     class="navside-tags {% if site.scrollappear_enabled %}scrollappear{% endif %}"
   >
+    {% assign tags = site.tags | sort %} 
+    {% assign my_tags = site.collections | where: "label", "my_tags" | first %} 
+    {% for my_tag in my_tags.docs %}
+        {% if my_tag.parent == "root" %} 
+            <li>
+            <a class="parent_tag" href="{{ 'tag/' | relative_url }}{{ my_tag.slug }}">{{ my_tag.name }}</a>
+            </li>
+            {% if my_tag.children[0] %} 
+            <li class="brack">
+            [
+            </li>
+            {% endif %}
+            {% for my_in_tag in my_tags.docs %}
+                {% if my_tag.slug == my_in_tag.parent %}
+                    <li>
+                    <a class="child_tag" href="{{ 'tag/' | relative_url }}{{ my_in_tag.slug }}">{{ my_in_tag.name }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+            {% if my_tag.children[0] %} 
+            <li class="brack">
+            ]
+            </li>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+    <!-- {% assign tags = site.tags | sort %} 
+    {% assign my_tags = site.collections | where: "label", "my_tags" | first %} 
+    {% for tag in tags %}
+        {% assign tag_slug = tag | first %}
+        {% for my_tag in my_tags.docs %}
+            {% if tag_slug == my_tag.slug %}
+                {% assign tag_parent = my_tag.parent %}
+                {% assign tag_name = my_tag.name %}
+                {% if tag_parent == "root" %} 
+                    <li>
+                    <a href="{{ 'tag/' | relative_url }}{{ tag[0] }}">{{ tag_name }}</a>
+                    </li>
+                    {% for my_in_tag in my_tags.docs %}
+                        {{ my_in_tag.parent }}
+                        {% if tag_slug == my_in_tag.parent %}
+                            {% assign tag_in_name = my_in_tag.name %}
+                            <li>
+                            <a href="{{ 'tag/' | relative_url }}{{ tag[0] }}">- {{ tag_in_name }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %} -->
+  </ul>
+  <!-- <ul
+    class="navside-tags {% if site.scrollappear_enabled %}scrollappear{% endif %}"
+  >
     {% assign tags = site.tags | sort %} {% for tag in tags %} {% if
     forloop.index > 20 %}
     <li>...</li>
@@ -12,13 +67,12 @@
     <li>
       <a href="{{ 'tag/' | relative_url }}{{ tag[0] }}">[{{ tag[0] }}]</a>
     </li>
-    <!-- {{ tag[0] | capitalize }} -->
     {% else %}
     <li>
       <a href="{{ 'tag/' | relative_url }}{{ tag[0] }}">{{ tag[0] }}</a>
     </li>
     {% endif %} {% endfor %}
-  </ul>
+  </ul> -->
   {% endif %}
   <!--
       {%- assign pages_list = site.html_pages | sort:"nav_order" -%}

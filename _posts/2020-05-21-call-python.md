@@ -3,7 +3,7 @@ layout: post
 title: "Houdini Asset: Call Python"
 description: "Running any python code with any environment from within Houdini"
 thumb_image: "documentation/sample-image.png"
-tags: [gss, python, houdini, computation, interface]
+tags: [gss, python, houdini, interface, development]
 ---
 
 Houdini is a great software not only for VFX artists but anyone who's work is intertwined with computational geometry. Houdini supports python out of the box, however there are restirictions in terms of the environment that your python code is being executed in. These restrictions become problematic when your development environment needs specific python version, certain libraries or even installation of in-development libraries. To overcome these restrictions and also benefit from the underlying geometrical database of Houdini, we have developed the [Call Python houdini asset](https://github.com/shervinazadi/GSS_Call_Python), at GSS-Lab.

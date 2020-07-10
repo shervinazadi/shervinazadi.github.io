@@ -1,7 +1,8 @@
 ---
-slug: teaching
-name: Teaching
-title: Teaching
+slug: education
+name: Education
+title: Education
+parent: activities
 description:
 ---
 

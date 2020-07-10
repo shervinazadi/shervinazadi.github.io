@@ -2,6 +2,7 @@
 slug: notebooks
 name: Notebooks
 title: Notebooks
+parent: publications
 description: Educational Computational Setups
 ---
 

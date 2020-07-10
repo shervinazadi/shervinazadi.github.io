@@ -2,6 +2,7 @@
 slug: gss
 name: GSS-Lab
 title: GSS - Lab
+parent: platforms
 description: Generative Science and Systems Lab
 ---
 

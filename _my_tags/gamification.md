@@ -2,6 +2,7 @@
 slug: gamification
 name: Gamification
 title: Gamification
+parent: methods
 description:
 ---
 

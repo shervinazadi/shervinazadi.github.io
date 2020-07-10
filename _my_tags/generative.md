@@ -2,6 +2,7 @@
 slug: generative
 name: Generative
 title: Generative
+parent: methods
 description:
 ---
 
