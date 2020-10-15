@@ -35,22 +35,22 @@ tags: [notebooks, python, interface]
 
 {% include image.html path="notebook_vis/Volumetric_S.png"
                       path-detail="notebook_vis/Volumetric.png"
-                      alt="Sample image" %}
+                      alt="" %}
 
 [Interactive Visualization of 3D Vector Field](https://github.com/shervinazadi/Notebook_Visualization/blob/master/VIS/PY_VectorField)
 
 {% include image.html path="notebook_vis/VectorField_S.png"
                       path-detail="notebook_vis/VectorField.png"
-                      alt="Sample image" %}
+                      alt="" %}
 
 [Interactive Visualization of Urbanization of World](https://github.com/shervinazadi/Portfolio_Data_Visualization/blob/master/VIS/PY_Urbanization)
 
 {% include image.html path="notebook_vis/Urbanization_S.png"
                       path-detail="notebook_vis/Urbanization.png"
-                      alt="Sample image" %}
+                      alt="" %}
 
 [Interactive Visualization of Mesh Rasterization Algorithm](https://github.com/shervinazadi/Notebook_Visualization/tree/master/VIS/PY_Rasterization)
 
 {% include image.html path="notebook_vis/Rasterization_S.gif"
                       path-detail="notebook_vis/Rasterization.gif"
-                      alt="Sample image" %}
+                      alt="" %}

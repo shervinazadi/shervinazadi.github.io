@@ -10,4 +10,4 @@ Work in progress!
 
 {% include image.html path="solar/Noordereiland_P_S.png"
                       path-detail="solar/Noordereiland_P_S.png"
-                      alt="Sample image" %}
+                      alt="" %}

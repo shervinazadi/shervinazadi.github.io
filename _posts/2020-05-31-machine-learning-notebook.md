@@ -28,4 +28,4 @@ tags: [notebooks, python]
 
 {% include image.html path="notebook_machlearn/Numerical_Differentiation_S.png"
                       path-detail="notebook_machlearn/Numerical_Differentiation.png"
-                      alt="Sample image" %}
+                      alt="" %}

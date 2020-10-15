@@ -16,4 +16,4 @@ An important aspect of this research is studying the relation between design rul
 
 {% include image.html path="emergentium/Emerge_Vol_039.gif"
                       path-detail="emergentium/Emerge_Vol_039.gif"
-                      alt="Sample image" %}
+                      alt="" %}

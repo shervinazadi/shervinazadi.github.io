@@ -8,7 +8,7 @@ tags: [papers, python, research, generative, spatial]
 
 {% include image.html path="polyshell/ps_01_S.png"
                       path-detail="polyshell/ps_01_L.png"
-                      alt="Sample image" %}
+                      alt="" %}
 
 ### Authors
 
@@ -22,34 +22,34 @@ Building optimal free-form compression-only adobe shells requires sophisticated 
 
 {% include image.html path="polyshell/dr.gif"
                       path-detail="polyshell/dr.gif"
-                      alt="Sample image" %}
+                      alt="" %}
 
 ### Space-Filling Polyhedra
 
 {% include image.html path="polyshell/ps_02_S.png"
                       path-detail="polyshell/ps_02_L.png"
-                      alt="Sample image" %}
+                      alt="" %}
 
 {% include image.html path="polyshell/ps_03_S.png"
                       path-detail="polyshell/ps_03_L.png"
-                      alt="Sample image" %}
+                      alt="" %}
 
 ### Topological Polyhedralization
 
 {% include image.html path="polyshell/wir.gif"
                       path-detail="polyshell/wir.gif"
-                      alt="Sample image" %}
+                      alt="" %}
 
 {% include image.html path="polyshell/sol.gif"
                       path-detail="polyshell/sol.gif"
-                      alt="Sample image" %}
+                      alt="" %}
 
 ### Construction Sequence
 
 {% include image.html path="polyshell/ps_04_S.png"
                       path-detail="polyshell/ps_04_L.png"
-                      alt="Sample image" %}
+                      alt="" %}
 
 {% include image.html path="polyshell/ps_05_S.png"
                       path-detail="polyshell/ps_05_L.png"
-                      alt="Sample image" %}
+                      alt="" %}
