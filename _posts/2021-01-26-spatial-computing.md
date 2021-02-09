@@ -3,7 +3,7 @@ layout: post
 title: "Spatial Computing Minor"
 description: "Generative Design Systems for Residential Complex"
 thumb_image: "documentation/sample-image.png"
-tags: [education, generative, spatial, python, computation]
+tags: [education, generative, spatial, python]
 ---
 
 [Spatial Computing](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48799) is a minor for bachelor students at [TU Delft](https://www.tudelft.nl/en/). The goal of this studio is to introduce a participatory generative approach to architectural design. In doing so, the course also introduces basic mathematical and computational skills, especially in geometry, topology and graph theory (spatial mathematics), which are necessary for systematic analysis, synthesis, simulation, decision-making, and optimization in architectural design. We propose generative design as a feed-forward way of designing in which the form is systematically derived from functional requirements. The goal of this studio is to learn how to develop computational design workflows. Therefore, the focal points of attention in the course are gamification, programming, and mathematics for participatory generative design. Thus, students are required to provide a demonstration of an operational workflow showing the transformation of a site, a program of requirements, key performance indicators, and the preferences of the prospective inhabitants into a building. [Spatial computing workshops](https://github.com/shervinazadi/spatial_computing_workshops) contains all the workshops of the course in python notebook format. 
