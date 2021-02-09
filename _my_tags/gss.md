@@ -1,7 +1,7 @@
 ---
 slug: gss
-name: GSS-Lab
-title: GSS - Lab
+name: Genesis Lab
+title: Genesis Lab
 parent: platforms
 description: Generative Science and Systems Lab
 ---
