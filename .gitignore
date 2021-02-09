@@ -14,3 +14,5 @@ package-lock.json
 yarn.lock
 .idea
 .DS_Store
+_posts/2021-01-26-spatial-computing.md
+.gitignore

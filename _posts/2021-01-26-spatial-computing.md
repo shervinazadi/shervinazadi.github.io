@@ -1,18 +1,16 @@
 ---
 layout: post
-title: "Spatial Computing Minor"
+title: "Spatial Computing - Bachelor Minor"
 description: "Generative Design Systems for Residential Complex"
-thumb_image: "documentation/sample-image.png"
+thumb_image: "spatial_computing/spatial_computing_sil.png"
 tags: [education, generative, spatial, python]
 ---
 
 [Spatial Computing](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=48799) is a minor for bachelor students at [TU Delft](https://www.tudelft.nl/en/). The goal of this studio is to introduce a participatory generative approach to architectural design. In doing so, the course also introduces basic mathematical and computational skills, especially in geometry, topology and graph theory (spatial mathematics), which are necessary for systematic analysis, synthesis, simulation, decision-making, and optimization in architectural design. We propose generative design as a feed-forward way of designing in which the form is systematically derived from functional requirements. The goal of this studio is to learn how to develop computational design workflows. Therefore, the focal points of attention in the course are gamification, programming, and mathematics for participatory generative design. Thus, students are required to provide a demonstration of an operational workflow showing the transformation of a site, a program of requirements, key performance indicators, and the preferences of the prospective inhabitants into a building. [Spatial computing workshops](https://github.com/shervinazadi/spatial_computing_workshops) contains all the workshops of the course in python notebook format. 
 
-<figure>
-  <img src="https://sanderbentvelsen.github.io/spatial_computing_project_template/img/Gif_growth.gif" alt="growth" style="width:100%;">
-  <figcaption>Growth Process, image credit: CUB3D project</figcaption>
-</figure>
-
+{% include image.html path="spatial_computing/growth.gif"
+                      path-detail="spatial_computing/growth.gif"
+                      alt="Growth Process, image credit: CUB3D project" %}
 ### Instruction Team
 <a href="https://www.tudelft.nl/en/staff/p.nourian">Dr. Ir. Pirouz Nourian</a> (TU Delft, Design Informatics, PZN)<br>
 <a href="https://www.tudelft.nl/staff/s.azadi-1/">Ir. Shervin Azadi</a> (TU Delft, Design Informatics, SAZ)<br>
@@ -37,6 +35,9 @@ In 2020, we have restructured the workshops of the course to remove all commerci
     * Nancy Nguyen
     * Jirri van den Bos
 
+{% include image.html path="spatial_computing/spatial_computing_sil.png"
+                      path-detail="spatial_computing/spatial_computing_sil.png"
+                      alt="image credit: The Green Valley project" %}
 ### More information:
 * [Spatial Computing Design Studio 2019 - Student Projects](https://github.com/Pirouz-Nourian/Spatial_Computing_Design_Studio19)
 * [Spatial Computing Design Studio 2018 - Student Projects](https://github.com/Pirouz-Nourian/Spatial_Computing_Design_Studio18)

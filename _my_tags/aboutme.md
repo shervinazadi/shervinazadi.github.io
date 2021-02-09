@@ -1,7 +1,7 @@
 ---
 slug: aboutme
-name: AboutMe
-title: AboutMe
+name: About Me
+title: About Me
 parent: root
 description:
 ---
