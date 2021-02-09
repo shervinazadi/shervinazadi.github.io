@@ -9,7 +9,7 @@ layout: default
 
 {% for my_tag in my_tags.docs %}
   {% if my_tag.slug == page.slug %}
-    {% if my_tag.parent == "root" %} 
+    {% if my_tag.parent == "no-root" %} 
       {% for child_slug in my_tag.children %}
         {% if site.tags[child_slug] %}
           <ul class="article-list">
@@ -40,32 +40,32 @@ layout: default
         {% endif %}
       {% endfor %}
     {% else %}
-    {% if site.tags[page.slug] %}
-      <ul class="article-list">
+      {% if site.tags[page.slug] %}
+        <ul class="article-list">
         {% for post in site.tags[page.slug] %}
-        <li
-          class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}"
-        >
-          <div class="article-list-side-image">
-            <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-              {% include thumb_image.html path=post.thumb_image alt="Sample image" %}
-            </a>
-          </div>
-          <div class="article-list-side-info">
-            <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-              <h5>
-                {{ post.title }} {% include svg-icon.html icon="arrow-right" %}
-              </h5>
-            </a>
-            <p class="article-list-tags">
-              {% if post.description %} {{ post.description }} {% else %} {{
-              post.excerpt }} {% endif %}
-            </p>
-            {% include article/info-footer.html post=post %}
-          </div>
-        </li>
+          <li
+            class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}"
+          >
+            <div class="article-list-side-image">
+              <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+                {% include thumb_image.html path=post.thumb_image alt="Sample image" %}
+              </a>
+            </div>
+            <div class="article-list-side-info">
+              <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
+                <h5>
+                  {{ post.title }} {% include svg-icon.html icon="arrow-right" %}
+                </h5>
+              </a>
+              <p class="article-list-tags">
+                {% if post.description %} {{ post.description }} {% else %} {{
+                post.excerpt }} {% endif %}
+              </p>
+              {% include article/info-footer.html post=post %}
+            </div>
+          </li>
         {% endfor %}
-      </ul>
+        </ul>
       {% endif %}
     {% endif %}
   {% endif %}
