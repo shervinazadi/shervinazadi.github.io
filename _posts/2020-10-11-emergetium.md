@@ -6,7 +6,11 @@ thumb_image: "emergentium/sil.png"
 tags: [research, spatial, generative, urban, python, development, interfaces]
 ---
 
-Emergentium is a research project, co-founded by [Nour Abuzaid](https://indd.adobe.com/view/33e5a7fb-7ba8-49f1-9109-91e317d48728) and [Shervin Azadi](https://shervinazadi.com/) with the objective of building a dynamic and interactive urban simulation platform that integrates both the interface and the computational logic necessary to create bottom-up scenarios for urban design. It aims to create a workflow where different rule-sets are developed by users and implemented using a simulation model, to investigate the emergent effect of their large-scale application.
+[emergentium.io](https://emergentium.io/) is a research project, founded by [Nour Abuzaid](https://indd.adobe.com/view/33e5a7fb-7ba8-49f1-9109-91e317d48728) and [Shervin Azadi](https://shervinazadi.com/) with the objective of building a dynamic and interactive urban simulation platform that integrates both the interface and the computational logic necessary to create bottom-up scenarios for urban design. It aims to create a workflow where different rule-sets are developed by users and implemented using a simulation model, to investigate the emergent effect of their large-scale application.
+
+{% include image.html path="emergentium/demo_vis.gif"
+                      path-detail="emergentium/demo_vis.gif"
+                      alt="" %}
 
 The project builds upon the potentials provided by the digital turn in architecture in imitating the natural growth processes, creating abstract urban simulation models, and providing mediums for sharing knowledge in the AEC industry, like BIM. Nonetheless, it aims to further explore these potentials by activating the participatory aspect of urban form-making, simulating urban growth based on the use of architectural/geometric elements, and creating a design platform for the participation of non-professional actors within a ‘gamified’ simulation.
 
