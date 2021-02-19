@@ -5,8 +5,16 @@ description: "Research Infrastructure for Online Spatial & Urban Simulations"
 thumb_image: "emergentium/sil.png"
 tags: [research, spatial, generative, urban, python, development, interfaces]
 ---
-
-[emergentium.io](https://emergentium.io/) is a research project, founded by [Nour Abuzaid](https://indd.adobe.com/view/33e5a7fb-7ba8-49f1-9109-91e317d48728) and [Shervin Azadi](https://shervinazadi.com/) with the objective of building a dynamic and interactive urban simulation platform that integrates both the interface and the computational logic necessary to create bottom-up scenarios for urban design. It aims to create a workflow where different rule-sets are developed by users and implemented using a simulation model, to investigate the emergent effect of their large-scale application.
+[emergentium.io](https://emergentium.io/) is an open and accessible simulation platform for urban
+and spatial simulations, founded by [Shervin Azadi](https://shervinazadi.com/) and [Nour Abuzaid](https://indd.adobe.com/view/33e5a7fb-7ba8-49f1-9109-91e317d48728).
+It aims to facilitate research on multi-dimensional, multi-criteria
+and multi-actor aspects of the built environment by providing a
+dynamic and interactive simulation platform that focuses on
+decentralized spatial simulations. Emergentium primarily focuses on
+differentiated discrete simulation space embedded in geo-spatial
+platforms, customizable computational agents and rule-sets, and
+online participatory capabilities of interacting with the
+simulations.
 
 {% include image.html path="emergentium/demo_vis.gif"
                       path-detail="emergentium/demo_vis.gif"
