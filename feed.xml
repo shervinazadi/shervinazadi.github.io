@@ -1,20 +1,90 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Shervin Azadi</title>
+    <description></description>
+    <link>shervinazadi.com</link>
+    <atom:link href="shervinazadi.com/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Spatial Computing - Bachelor Minor</title>
+        <description>Generative Design Systems for Residential Complex</description>
+        <pubDate>Tue, 26 Jan 2021 00:00:00 +0100</pubDate>
+        <link>shervinazadi.com/p/spatial-computing</link>
+        <guid isPermaLink="true">shervinazadi.com/p/spatial-computing</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Spatial Computing Workshops</title>
+        <description>Generative Design Systems: Simplified Agent-Based Workflow</description>
+        <pubDate>Tue, 26 Jan 2021 00:00:00 +0100</pubDate>
+        <link>shervinazadi.com/p/spatial-computing-workshops</link>
+        <guid isPermaLink="true">shervinazadi.com/p/spatial-computing-workshops</guid>
+      </item>
+    
+      <item>
+        <title>EquiCity</title>
+        <description>Digital Serious Gaming for Participatory City Planning and Management</description>
+        <pubDate>Tue, 12 Jan 2021 00:00:00 +0100</pubDate>
+        <link>shervinazadi.com/p/equicity</link>
+        <guid isPermaLink="true">shervinazadi.com/p/equicity</guid>
+      </item>
+    
+      <item>
+        <title>Emergentium</title>
+        <description>Research Infrastructure for Online Spatial &amp; Urban Simulations</description>
+        <pubDate>Sun, 11 Oct 2020 00:00:00 +0200</pubDate>
+        <link>shervinazadi.com/p/emergetium</link>
+        <guid isPermaLink="true">shervinazadi.com/p/emergetium</guid>
+      </item>
+    
+      <item>
+        <title>Decision-Making as a Social Choice Game</title>
+        <description>Gamifying an Urban Redevelopment Process in Search for Consensus</description>
+        <pubDate>Tue, 22 Sep 2020 00:00:00 +0200</pubDate>
+        <link>shervinazadi.com/p/demo-game</link>
+        <guid isPermaLink="true">shervinazadi.com/p/demo-game</guid>
+      </item>
+    
+      <item>
+        <title>Sunlight + Visibility Analysis Tool-set</title>
+        <description>A Small Python Package for Spatial Sunlight and Visibility Analysis</description>
+        <pubDate>Tue, 01 Sep 2020 00:00:00 +0200</pubDate>
+        <link>shervinazadi.com/p/spatial-solar</link>
+        <guid isPermaLink="true">shervinazadi.com/p/spatial-solar</guid>
+      </item>
+    
+      <item>
+        <title>Earthy - Master Studio</title>
+        <description>Computational Configuration and Structure Design for Low-Tech Earthy Constructions</description>
+        <pubDate>Sun, 30 Aug 2020 00:00:00 +0200</pubDate>
+        <link>shervinazadi.com/p/earthy</link>
+        <guid isPermaLink="true">shervinazadi.com/p/earthy</guid>
+      </item>
+    
+      <item>
+        <title>topoGenesis</title>
+        <description>Python Package of Computational Topology for Generative Systems and Sciences</description>
+        <pubDate>Thu, 20 Aug 2020 00:00:00 +0200</pubDate>
+        <link>shervinazadi.com/p/topogenesis</link>
+        <guid isPermaLink="true">shervinazadi.com/p/topogenesis</guid>
+      </item>
+    
+      <item>
+        <title>The Shifter: Spooning Realities</title>
+        <description>A grammar for dynamic spaces</description>
+        <pubDate>Thu, 16 Jul 2020 00:00:00 +0200</pubDate>
+        <link>shervinazadi.com/p/shifter</link>
+        <guid isPermaLink="true">shervinazadi.com/p/shifter</guid>
+      </item>
+    
+      <item>
+        <title>Houdini Asset: Call Python</title>
+        <description>Running any python code with any environment from within Houdini</description>
+        <pubDate>Sun, 07 Jun 2020 00:00:00 +0200</pubDate>
+        <link>shervinazadi.com/p/call-python</link>
+        <guid isPermaLink="true">shervinazadi.com/p/call-python</guid>
+      </item>
+    
   </channel>
 </rss>
